@@ -1,0 +1,62 @@
+
+button {
+  font-size: 1rem;
+  border: none;
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  background-color: rgb(102, 37, 139);
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+}
+
+.title, .search-form {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: black;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+.random-button{
+  margin-left: 16px;
+}
+
+.search-button {
+  margin-left: 2px;
+}
+
+.search-bar {
+  border: none;
+  background-color: rgb(236, 224, 243);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.recipe-section {
+  /* padding: 100px 0 160px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* background-color: #fafafa; */
+}
+.recipeView__recipeUrl {
+  background-image: linear-gradient(to right, #3811e7, #84bedd);
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 25px;
+  outline: none;
+}
